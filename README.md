@@ -6,14 +6,15 @@ This script is designed to generate a forest of trees in an NVIDIA Isaac Sim sim
 
 1. **Installation**: Make sure you have NVIDIA Isaac Sim installed and set up.
 
-2. **Download Tree Models**: Download tree models in USD format and specify their paths in the script (`Birch_usd_path`, `Spruce_usd_path`, `Pine_usd_path`, `Maple_usd_path`).
+2. **Download Tree Models**: Download tree models in USD format and specify their paths in the script. I sadly cannot share the trees I used when developing this. So you will have to find or model them yourself.
+   (`Birch_usd_path`, `Spruce_usd_path`, `Pine_usd_path`, `Maple_usd_path`).
 
-3. **Prepare Tree Coordinates File**: Create a `.txt` file containing tree coordinates, type, and scale information. Each line in the file should be formatted as follows:
+4. **Prepare Tree Coordinates File**: Create a `.txt` file containing tree coordinates, type, and scale information. Each line in the file should be formatted as follows:
    ```
    x_coordinate; y_coordinate; z_coordinate; tree_type; scale_x; scale_y; scale_z
    ```
 
-4. **Run the Script**: Run the script and specify the path to the tree coordinates file. Use the provided interface to generate or delete trees in the simulation.
+5. **Run the Script**: Run the script and specify the path to the tree coordinates file. Use the provided interface to generate or delete trees in the simulation.
 
 ## Script Details
 
